@@ -1,0 +1,59 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:gravity="center">
+<TextView
+    android:layout_width="wrap_content"
+    android:text="Quote Generator By Anurag"
+    android:textColor="@android:color/white"
+    android:textSize="30sp"
+    android:textStyle="italic"
+    android:layout_height="wrap_content"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardBackgroundColor="#80000000"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click button below and see the Magic...
+"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/textView"
+            android:textSize="30sp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Generate Quotes"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:id="@+id/button"
+            android:textColor="@android:color/white" />
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/Share"
+            android:layout_height="wrap_content"
+            android:text="Share Quote"
+            android:backgroundTint="@android:color/holo_blue_light"/>
+
+
+    </LinearLayout>
+</LinearLayout>
+
